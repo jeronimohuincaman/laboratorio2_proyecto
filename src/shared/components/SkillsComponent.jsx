@@ -13,7 +13,7 @@ const skills = [
   },
   {
     title: "Nest JS",
-    description: "Experiencia en backend realizando APIS.",
+    description: "Experiencia utilizando este framework de backend para realizar APIS.",
     image: "/assets/nestjs.svg"
   },
   {

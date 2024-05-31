@@ -11,17 +11,15 @@ function App() {
         sx={{
           display: 'flex',
           flexDirection: 'column',
-          minHeight: '100vh',
+          height: '100vh',
         }}
       >
         <Router>
-          <div className="App">
             <Routes>
               <Route exact path="/" Component={HomePage} />
               <Route exact path="/about" Component={AboutPage} />
               <Route path="*" Component={NotFoundPage} />
             </Routes>
-          </div>
         </Router>
       </Box>
     </>

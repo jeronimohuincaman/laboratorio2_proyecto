@@ -12,20 +12,23 @@ function AboutPage() {
             <MainContainer>
                 <Paper elevation={3} style={{ padding: '2rem' }}>
                     <Box sx={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
-                    <Avatar
-                        alt="My Photo"
-                        src={MyImageUrl}
-                        sx={{ width: 100, height: 100, marginRight: 2 }}
-                    />
-                    <Typography variant="h3" component="h1" gutterBottom sx={{ textAlign: "center" }}>
-                        Hola, Soy Jerónimo 👋
-                    </Typography>
+                        <Avatar
+                            alt="My Photo"
+                            src={MyImageUrl}
+                            sx={{ width: 300, height: 300, marginRight: 2 }}
+                        />
+                        <Typography variant="h3" component="h1" gutterBottom sx={{ textAlign: "center" }}>
+                            Hola, Soy Jerónimo 👋
+                        </Typography>
                     </Box>
                     <Typography variant="body1" paragraph sx={{ textAlign: "center" }}>
                         Bienvenidos a mi portfolio! te cuento un poco de mi trayecotria...
                     </Typography>
                     <Typography variant="body1" paragraph sx={{ textAlign: "center" }}>
                         Soy <b>Tecnico programador</b> egresado de la <i>EPET 2O</i>. Actualmente curso la carrera de <b>Desarrollo Full Stack</b> en el el <i>Instituto Tecnico Superior de Cipolleti</i>.
+                    </Typography>
+                    <Typography variant="body1" paragraph sx={{ textAlign: "center" }}>
+                        Actualmente me desempeño como desarrollador backend y frontend en <b>JEDS</b>
                     </Typography>
 
                 </Paper>
